@@ -8,9 +8,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CustomBufferedReader leitor = new CustomBufferedReader("arquivo_fornecido.csv");
-        System.out.println(leitor);
-
         FilialCSVReader filialCSVReader = new FilialCSVReader("arquivo_fornecido.csv");
 
         List<Filial> filiais = filialCSVReader.lerFiliais();
@@ -32,3 +29,4 @@ public class Main {
         }
     }
 }
+
